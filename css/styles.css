@@ -1,6 +1,4 @@
-html{
-	font-family: 'Roboto', sans-serif;
-}
+html{ font-family: 'Roboto', sans-serif; }
 
 body{
 	background-color: #FFFFFF;
@@ -27,13 +25,9 @@ header{
 	float: left;
 }
 
-.logo{
-	padding-top: 30px;
-}
+.logo{ padding-top: 30px; }
 
-.menu{
-	margin-top: 32px;
-}
+.menu{ margin-top: 32px; }
 
 .menu li{
 	list-style-type: none;
@@ -129,13 +123,13 @@ header{
 .feature-section-wrapper{
 	width: 70%;
 	margin: 0 auto;
+	padding: 40px 0px;
 }
 
 #feature-section h1{
-	padding-top: 45px;
 	padding-bottom: 25px;
 	font-size: 1.5em;
-	font-weight: 200;
+	font-weight: 300;
 }
 
 .feature-section-title{
@@ -159,22 +153,19 @@ header{
 	display: flex;
 }
 
-.col-3 h3{
-	font-family: 'Fjalla+One', sans-serif;
-}
+.col-3 h3{ font-family: 'Fjalla+One', sans-serif; }
 
-.feature-content .col-3 img{
-	width: 100%;
-}
+.feature-content .col-3 img{ width: 100%; }
 
 .feature-content .col-3 p{
 	letter-spacing: 1px;
 	text-align: center;
 	font-size: 0.8em;
+	margin: 0px;
 }
 
 .feature-content .col-3{
-	padding: 10px;
+	padding: 10px 10px 0px 10px;
 	width: 30%;
 	margin: 0 auto;
 }
@@ -185,27 +176,35 @@ header{
 }
 
 #showcase1-container{
-	padding-top: 60px;
+	padding-top: 40px;
 	background-color:#e8eced;
 	width: 100%;
 	clear: both;
 }
 
-.showcase{
+.showcase-1{
 	width: 80%;
 	margin: 0 auto;
 	overflow: auto;
 	height: 100%;
 }
 
+.showcase-2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: auto;
+	height: 100%;
+	padding: 40px 0px;
+}
+
 .showcase-picture{
 	width: 100%;
+	display: block;
 }
 
 .feature-text{
 	padding-top: 250px;
 	padding-left: 50px;
-
 }
 
 .showcase-title{
@@ -223,7 +222,6 @@ header{
 }
 
 #showcase2-container{
-	padding-top: 60px;
 	background-color: #FFFFFF;
 	width: 100%;
 	clear: both;	
@@ -239,12 +237,11 @@ header{
 .col-1{
 	width: 80%;
 	margin: 0 auto;
-	padding: 34px 0px;
+	padding: 60px 0px;
 }
 
 .col-1 h4{
 	margin: 0;
-	padding-top: 30px;
 	font-size: 4em;
 	font-weight: 200;
 	text-align: center;
