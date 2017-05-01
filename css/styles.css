@@ -9,7 +9,6 @@ body{
 
 p{
 	font-family: 'Roboto', sans-serif;
-	color: #5d6660;
 	font-size: 0.9em;
 	line-height: 24px;
 }
@@ -28,6 +27,8 @@ header{
 	width: 32%;
 	float: left;
 }
+
+.col-3 p{ color: #5d6660; }
 
 .logo{
 	padding-top: 30px;
@@ -105,25 +106,34 @@ header{
 .main-form input{
 	font-family: 'Fjalla+One', sans-serif;
 	font-weight: 100;
-	margin: 0px;
 	width: 30%;
 	height: 30px;
-	padding: 0px 15px 0px 0px;	
 	border: none;
-
+	margin: 0 5px;
 }
 
 .main-form button{
 	font-family: 'Fjalla+One', sans-serif;
 	font-weight: 500;
-	margin: 0px;
 	width: 30%;
 	height: 32px;
 	border: 0px solid;
-	padding: 0px 15px 0px 0px;	
 	border: none;
+	margin: 0 5px;
 	background-color: #6dc77a;
 	color: #FFFFFF
+}
+
+.centering-wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feature-section-wrapper{
+	width: 70%;
+	margin: 0 auto;
 }
 
 #feature-section h1{
@@ -136,7 +146,6 @@ header{
 	font-family: 'Fjalla+One', sans-serif;
 	font-weight: 500;
 	line-height: 1.5em;
-	width: 70%;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -148,11 +157,10 @@ header{
 }
 
 .feature-content{
-	padding: 0;
-	margin: auto;
-	width: 80%;
 	letter-spacing: 1px;
 	text-align: center;
+	width: 100%;
+	display: flex;
 }
 
 .col-3 h3{
@@ -172,7 +180,7 @@ header{
 .feature-content .col-3{
 	padding: 10px;
 	width: 30%;
-	margin: 0;
+	margin: 0 auto;
 }
 
 .col-2{
@@ -198,7 +206,7 @@ header{
 }
 
 .feature-text{
-	padding-top: 300px;
+	padding-top: 250px;
 	padding-left: 50px;
 
 }
@@ -225,4 +233,21 @@ header{
 	clear: both;	
 }
 
+#call-to-action{
+	background-image: url(../images/Darkdesk.png);
+	font-family: 'Titillium Web', sans-serif;
+}
 
+.action-title{
+	font-size: 6em;
+	font-weight: 300;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 0px;
+	padding-top: 100px;
+}
+
+.col-1{
+	width: 80%;
+	margin: auto;
+}
