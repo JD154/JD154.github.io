@@ -153,8 +153,6 @@ header{
 	display: flex;
 }
 
-.col-3 h3{ font-family: 'Fjalla+One', sans-serif; }
-
 .feature-content .col-3 img{ width: 100%; }
 
 .feature-content .col-3 p{
