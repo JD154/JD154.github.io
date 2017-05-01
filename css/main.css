@@ -1,3 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Roboto|Titillium+Web');
+
+@import url(fonts.css);
 @import url(styles.css);
 @import url(reset.css);

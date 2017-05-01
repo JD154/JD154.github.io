@@ -1,0 +1,47 @@
+@font-face{
+  font-family: Fjalla+One;
+  src: url('../fonts/Fjalla_One/FjallaOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: Roboto;
+  /*src: url('../fonts/Roboto/Roboto-Black.ttf') format('truetype');
+  src: url('../fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+  src: url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  src: url('../fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+  src: url('../fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+  src: url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
+  src: url('../fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
+  src: url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+  src: url('../fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');*/
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  /*src: url('../fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+	font-family: Roboto-Thin;
+	src: url('../fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face{
+  font-family: Titillium+Web;
+  /*src: url('../fonts/Titillium_Web/TitilliumWeb-Black.ttf') format('truetype');
+  src: url('../fonts/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
+  src: url('../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf') format('truetype');
+  src: url('../fonts/Titillium_Web/TitilliumWeb-ExtraLight.ttf') format('truetype');
+  src: url('../fonts/Titillium_Web/TitilliumWeb-ExtraLightItalic.ttf') format('truetype');
+  src: url('../fonts/Titillium_Web/TitilliumWeb-Italic.ttf') format('truetype');
+  src: url('../fonts/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
+  src: url('../fonts/Titillium_Web/TitilliumWeb-LightItalic.ttf') format('truetype');*/
+  src: url('../fonts/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
+  /*src: url('../fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf') format('truetype');
+  src: url('../fonts/Titillium_Web/TitilliumWeb-SemiBoldItalic.ttf') format('truetype');*/
+  font-weight: normal;
+  font-style: normal;
+}
